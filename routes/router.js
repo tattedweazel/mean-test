@@ -1,4 +1,4 @@
-var routes = require('../routes');
+var routes = require('./routes');
 exports.route = function( app ){
 
     app.get('/', routes.index);
